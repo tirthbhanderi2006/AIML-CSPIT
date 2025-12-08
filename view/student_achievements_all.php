@@ -331,6 +331,15 @@ $achievements = [
       </div>
 
       <!-- Statistics Section -->
+      <?php
+      // Count research papers
+      $researchCount = 0;
+      foreach ($achievements as $achievement) {
+          if (isset($achievement['category']) && $achievement['category'] === 'research') {
+              $researchCount++;
+          }
+      }
+      ?>
       <div class="stats-section">
         <div class="row">
           <div class="col-lg-3 col-md-6">
@@ -341,7 +350,7 @@ $achievements = [
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="stat-item">
-              <div class="stat-number">0</div>
+              <div class="stat-number"><?php echo $researchCount; ?></div>
               <div class="stat-label">Research Papers</div>
             </div>
           </div>
