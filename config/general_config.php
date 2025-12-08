@@ -69,7 +69,7 @@ $links['gallery'][7] = 'img/portfolio/7.JPG';
 $links['gallery'][8] = 'img/portfolio/8.jpeg';
 $links['gallery'][9] = 'img/portfolio/9.JPG';
 $links['gallery'][10] = 'img/portfolio/faculty1.jpg';
-
+$links['gallery'][11] = 'img/portfolio/ai-camp.jpg';
 
 // faculty photo links
 $n=1;

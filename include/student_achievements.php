@@ -8,14 +8,14 @@ $achievements = [
         'image' => 'img/students/student1.jpg',
         'badge' => 'Winner',
         'icon' => 'trophy'
-    ],
+    ],    
     [
         'name' => 'AIML Girls Team',
         'course' => 'B.Tech AI-ML, 2023',
         'description' => 'AIML Girls team became the winner of Cricket tournament at charusat spoural competition',
         'image' => 'img/students/student2.jpg',
         'badge' => 'Winner',
-        'icon' => 'medal'
+        'icon' => 'trophy'
     ],
     [
         'name' => 'Letscode',
@@ -34,12 +34,28 @@ $achievements = [
         'icon' => 'rocket'
     ],
     [
+        'name' => 'Hri Patel and Devang Dhandhukiya',
+        'course' => 'B.Tech AI-ML, 2023',
+        'description' => 'Toppers position(Top 1%) in JAN-APR-2025 NPTEL Course "Database Management System"',
+        'image' => 'img/students/student12.jpg',
+        'badge' => 'Topper',
+        'icon' => 'rocket'
+    ],
+    [
+        'name' => 'Het Patel and Arya Shah',
+        'course' => 'B.Tech AI-ML, 2023',
+        'description' => 'Toppers position(Top 2%) in JAN-APR-2025 NPTEL Course "Database Management System"',
+        'image' => 'img/students/student11.jpg',
+        'badge' => 'Topper',
+        'icon' => 'rocket'
+    ],
+    [
         'name' => 'Kashak and Yash',
-        'course' => 'B.Tech AI-ML, 2024',
-        'description' => 'Toppers position in JAN-APR-2025 NPTEL Course "Database Management System"',
+        'course' => 'B.Tech AI-ML, 2023',
+        'description' => 'Toppers position(Top 5%) in JAN-APR-2025 NPTEL Course "Database Management System"',
         'image' => 'img/students/student5.jpg',
         'badge' => 'Topper',
-        'icon' => 'graduation-cap'
+        'icon' => 'rocket'
     ],
     [
         'name' => 'Pradeep Chandravadiya',
@@ -63,7 +79,15 @@ $achievements = [
         'description' => '2nd Prize at INNOTECH 2.0 (Sep 2025) for "Land Use and Land Cover Classification Using Satellite Images"',
         'image' => 'img/students/student10.jpg',
         'badge' => '2nd Prize',
-        'icon' => 'medal'
+        'icon' => 'trophy'
+    ],
+        [
+        'name' => 'Ark, Niyati and Janvi',
+        'course' => 'B.Tech AI-ML, 2022',
+        'description' => '2nd Prize at DoesHask`24 Hackathon hosted by Meditab Software',
+        'image' => 'img/students/student14.jpg',
+        'badge' => '2ND PRIZE',
+        'icon' => 'trophy'
     ],
     [
         'name' => 'Krushna Parmar, Yash Gajera, Yagnik Paghdal, Prince Movaliya, Darshit Kachhadiya',
@@ -73,7 +97,7 @@ $achievements = [
         'badge' => 'Winner',
         'icon' => 'trophy'
     ],
-       [
+    [
         'name' => 'Malak Soni & Shivam Jayswal',
         'course' => 'B.Tech AI-ML, 2022',
         'description' => 'Champions of the 2025 Innovatics Hackathon, standing out through innovation, skill, and collaboration. Their success embodies our department’s commitment to creative, disciplined, and impactful technology.',
@@ -81,6 +105,42 @@ $achievements = [
         'badge' => 'Winner',
         'icon' => 'trophy'
     ],
+
+    //---
+    
+     [
+        'name' => 'Liza Satasiya',
+        'course' => 'B.Tech AI-ML, 2023',
+        'description' => 'Conference Paper Publication(Title:ENHANCING OPERATIONAL EFFICIENCY WITH IOT)',
+        'image' => 'img/students/student15.jpg',
+        'badge' => 'research',
+        'icon' => 'trophy',
+    ],
+     [
+        'name' => 'Jiten Mistry',
+        'course' => 'B.Tech AI-ML, 2022',
+        'description' => 'Conference Paper Publication.(Title:EFFCIENTBO FOR AI-GENERATED AND REAL IMAGE CLASSIFICATION)',
+        'image' => 'img/students/student16.jpg',
+        'badge' => 'research',
+        'icon' => 'trophy',
+    ],
+     [
+        'name' => 'Devarshi Dave',
+        'course' => 'B.Tech AI-ML, 2022',
+        'description' => 'Conference Paper Publication.(Title:REINFORCEMENT LEARNING IN CONVENTIONAL AI:ADVANTAGES AND CHALLENGES)',
+        'image' => 'img/students/student17.jpg',
+        'badge' => 'research',
+        'icon' => 'trophy',
+    ],
+     [
+        'name' => 'Om Bambhroliya',
+        'course' => 'B.Tech AI-ML, 2022',
+        'description' => 'Conference Paper Publication.(Title:MODERNNIZING RISK MANAGEMENT: THE ROLE OF PREDECTIVE ANALYSIS AND AI)',
+        'image' => 'img/students/student18.jpg',
+        'badge' => 'research',
+        'icon' => 'trophy',
+    ],
+
 ];
 
 ?>

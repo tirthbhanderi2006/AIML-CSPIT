@@ -39,12 +39,30 @@ $achievements = [
         'category' => 'topper'
     ],
     [
+        'name' => 'Hri Patel and Devang Dhandhukiya',
+        'course' => 'B.Tech AI-ML, 2023',
+        'description' => 'Toppers position(Top 1%) in JAN-APR-2025 NPTEL Course "Database Management System"',
+        'image' => 'img/students/student12.jpg',
+        'badge' => 'Topper',
+        'icon' => 'rocket',
+        'category' => 'topper'
+    ],
+    [
+        'name' => 'Het Patel and Arya Shah',
+        'course' => 'B.Tech AI-ML, 2023',
+        'description' => 'Toppers position(Top 2%) in JAN-APR-2025 NPTEL Course "Database Management System"',
+        'image' => 'img/students/student11.jpg',
+        'badge' => 'Topper',
+        'icon' => 'rocket',
+        'category' => 'topper'
+    ],
+    [
         'name' => 'Kashak and Yash',
-        'course' => 'B.Tech AI-ML, 2024',
-        'description' => 'Toppers position in JAN-APR-2025 NPTEL Course "Database Management System"',
+        'course' => 'B.Tech AI-ML, 2023',
+        'description' => 'Toppers position(Top 5%) in JAN-APR-2025 NPTEL Course "Database Management System"',
         'image' => 'img/students/student5.jpg',
         'badge' => 'Topper',
-        'icon' => 'graduation-cap',
+        'icon' => 'rocket',
         'category' => 'topper'
     ],
     [
@@ -75,6 +93,15 @@ $achievements = [
         'category' => 'competition'
     ],
     [
+        'name' => 'Ark, Niyati and Janvi',
+        'course' => 'B.Tech AI-ML, 2022',
+        'description' => '2nd Prize at DoesHask`24 Hackathon hosted by Meditab Software',
+        'image' => 'img/students/student14.jpg',
+        'badge' => '2ND PRIZE',
+        'icon' => 'trophy',
+        'category' => 'competition'
+    ],
+    [
         'name' => 'Krushna Parmar, Yash Gajera, Yagnik Paghdal, Prince Movaliya, Darshit Kachhadiya',
         'course' => 'B.Tech AI-ML, 2022',
         'description' => 'Winners of MSBC Group x CHARUSAT – DataQuest 2025, showcasing exceptional technical skills and innovative problem-solving in AI/ML.',
@@ -89,8 +116,46 @@ $achievements = [
         'description' => 'Champions of the 2025 Innovatics Hackathon, standing out through innovation, skill, and collaboration. Their success embodies our department’s commitment to creative, disciplined, and impactful technology.',
         'image' => 'img/students/student7.jpg',
         'badge' => 'Winner',
-        'icon' => 'trophy'
+        'icon' => 'trophy',
+        'category' => 'competition'
     ],
+     [
+        'name' => 'Liza Satasiya',
+        'course' => 'B.Tech AI-ML, 2023',
+        'description' => 'Conference Paper Publication(Title:ENHANCING OPERATIONAL EFFICIENCY WITH IOT)',
+        'image' => 'img/students/student15.jpg',
+        'badge' => 'research',
+        'icon' => 'trophy',
+        'category' => 'research'
+    ],
+     [
+        'name' => 'Jiten Mistry',
+        'course' => 'B.Tech AI-ML, 2022',
+        'description' => 'Conference Paper Publication.(Title:EFFCIENTBO FOR AI-GENERATED AND REAL IMAGE CLASSIFICATION)',
+        'image' => 'img/students/student16.jpg',
+        'badge' => 'research',
+        'icon' => 'trophy',
+        'category' => 'research'
+    ],
+     [
+        'name' => 'Devarshi Dave',
+        'course' => 'B.Tech AI-ML, 2022',
+        'description' => 'Conference Paper Publication.(Title:REINFORCEMENT LEARNING IN CONVENTIONAL AI:ADVANTAGES AND CHALLENGES)',
+        'image' => 'img/students/student17.jpg',
+        'badge' => 'research',
+        'icon' => 'trophy',
+        'category' => 'research'
+    ],
+     [
+        'name' => 'Om Bambhroliya',
+        'course' => 'B.Tech AI-ML, 2022',
+        'description' => 'Conference Paper Publication.(Title:MODERNNIZING RISK MANAGEMENT: THE ROLE OF PREDECTIVE ANALYSIS AND AI)',
+        'image' => 'img/students/student18.jpg',
+        'badge' => 'research',
+        'icon' => 'trophy',
+        'category' => 'research'
+    ],
+   
 ];
 
 ?>
