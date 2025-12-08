@@ -28,6 +28,7 @@ include('include/student_clubs.php');
 
 include('include/student_achievements.php');
 
+include('include/nptel_achievements.php');
 
 // include('include/ajax_data.php');
 
