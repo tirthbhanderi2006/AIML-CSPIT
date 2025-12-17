@@ -3,12 +3,12 @@
 // basic details
 $data['dept_esta'] = "2022";
 $data['dept_b_tech_seats'] = "60";
-$data['name_of_dept'] = "Artificial intelligence And Machine Learning";
+$data['name_of_dept'] = "Artificial Intelligence And Machine Learning";
 $links['brochure'] = 'files/AI_ML.pdf';
 
 // contact details
 $data['contact_address'] = 
-"Department of Artificial intelligence and Machine Learning (AI-ML),
+"Department of Artificial Intelligence and Machine Learning (AI-ML),
 <br>Charotar University of Science and Technology,
 <br>CHARUSAT Campus, Changa
 <br>Taluka: Petlad, Dist: Anand 
@@ -69,7 +69,7 @@ $links['gallery'][7] = 'img/portfolio/7.JPG';
 $links['gallery'][8] = 'img/portfolio/8.jpeg';
 $links['gallery'][9] = 'img/portfolio/9.JPG';
 $links['gallery'][10] = 'img/portfolio/faculty1.jpg';
-$links['gallery'][11] = 'img/portfolio/ai-camp.jpg';
+$links['gallery'][11] = 'img/portfolio/10.jpg';
 
 // faculty photo links
 $n=1;

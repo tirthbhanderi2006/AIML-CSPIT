@@ -29,42 +29,7 @@ $achievements = [
         'icon' => 'star',
         'category' => 'competition'
     ],
-    [
-        'name' => 'Hari, Puja and Smit',
-        'course' => 'B.Tech AI-ML, 2023',
-        'description' => 'Toppers position in JUL-OCT-2024 NPTEL Course "DSA using JAVA"',
-        'image' => 'img/students/student4.jpg',
-        'badge' => 'Topper',
-        'icon' => 'rocket',
-        'category' => 'topper'
-    ],
-    [
-        'name' => 'Hri Patel and Devang Dhandhukiya',
-        'course' => 'B.Tech AI-ML, 2023',
-        'description' => 'Toppers position(Top 1%) in JAN-APR-2025 NPTEL Course "Database Management System"',
-        'image' => 'img/students/student12.jpg',
-        'badge' => 'Topper',
-        'icon' => 'rocket',
-        'category' => 'topper'
-    ],
-    [
-        'name' => 'Het Patel and Arya Shah',
-        'course' => 'B.Tech AI-ML, 2023',
-        'description' => 'Toppers position(Top 2%) in JAN-APR-2025 NPTEL Course "Database Management System"',
-        'image' => 'img/students/student11.jpg',
-        'badge' => 'Topper',
-        'icon' => 'rocket',
-        'category' => 'topper'
-    ],
-    [
-        'name' => 'Kashak and Yash',
-        'course' => 'B.Tech AI-ML, 2023',
-        'description' => 'Toppers position(Top 5%) in JAN-APR-2025 NPTEL Course "Database Management System"',
-        'image' => 'img/students/student5.jpg',
-        'badge' => 'Topper',
-        'icon' => 'rocket',
-        'category' => 'topper'
-    ],
+   
     [
         'name' => 'Pradeep Chandravadiya',
         'course' => 'B.Tech AI-ML, 2023',
@@ -155,6 +120,17 @@ $achievements = [
         'icon' => 'trophy',
         'category' => 'research'
     ],
+
+     [
+        'name' => 'Tanmay, Rayan and Ansh',
+        'course' => 'B.Tech AI-ML, 2025',
+        'description' => '2nd Runner-up in C-TITAN',
+        'image' => 'img/students/student25.jpg',
+        'badge' => '2nd Prize',
+        'icon' => 'trophy',
+        'category' => 'competition'
+    ],
+
    
 ];
 

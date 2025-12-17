@@ -26,38 +26,6 @@ $achievements = [
         'icon' => 'star'
     ],
     [
-        'name' => 'Hari, Puja and Smit',
-        'course' => 'B.Tech AI-ML, 2023',
-        'description' => 'Toppers position in JUL-OCT-2024 NPTEL Course "DSA using JAVA"',
-        'image' => 'img/students/student4.jpg',
-        'badge' => 'Topper',
-        'icon' => 'rocket'
-    ],
-    [
-        'name' => 'Hri Patel and Devang Dhandhukiya',
-        'course' => 'B.Tech AI-ML, 2023',
-        'description' => 'Toppers position(Top 1%) in JAN-APR-2025 NPTEL Course "Database Management System"',
-        'image' => 'img/students/student12.jpg',
-        'badge' => 'Topper',
-        'icon' => 'rocket'
-    ],
-    [
-        'name' => 'Het Patel and Arya Shah',
-        'course' => 'B.Tech AI-ML, 2023',
-        'description' => 'Toppers position(Top 2%) in JAN-APR-2025 NPTEL Course "Database Management System"',
-        'image' => 'img/students/student11.jpg',
-        'badge' => 'Topper',
-        'icon' => 'rocket'
-    ],
-    [
-        'name' => 'Kashak and Yash',
-        'course' => 'B.Tech AI-ML, 2023',
-        'description' => 'Toppers position(Top 5%) in JAN-APR-2025 NPTEL Course "Database Management System"',
-        'image' => 'img/students/student5.jpg',
-        'badge' => 'Topper',
-        'icon' => 'rocket'
-    ],
-    [
         'name' => 'Pradeep Chandravadiya',
         'course' => 'B.Tech AI-ML, 2023',
         'description' => 'First Runner-up in Hackathon Conducted by Odoo x Amalthea at IIT Gandhinagar',
@@ -138,6 +106,14 @@ $achievements = [
         'description' => 'Conference Paper Publication.(Title:MODERNNIZING RISK MANAGEMENT: THE ROLE OF PREDECTIVE ANALYSIS AND AI)',
         'image' => 'img/students/student18.jpg',
         'badge' => 'research',
+        'icon' => 'trophy',
+    ],
+     [
+        'name' => 'Tanmay, Rayan and Ansh',
+        'course' => 'B.Tech AI-ML, 2025',
+        'description' => '2nd Runner-up in C-TITAN',
+        'image' => 'img/students/student25.jpg',
+        'badge' => '2nd Prize',
         'icon' => 'trophy',
     ],
 
@@ -321,10 +297,14 @@ $achievements = [
         </div>
 
         <div class="row">
-            <?php foreach ($achievements as $index => $achievement): 
+            <?php 
+            $i=1;
+            foreach ($achievements as $index => $achievement): 
+                if($i==7) break;
                 // Set fallback image based on index
                 $fallbackImage = 'img/portfolio/' . (($index % 5) + 1) . '.JPG';
                 if ($index >= 5) $fallbackImage = 'img/portfolio/4.jpg'; // Default fallback for additional items
+                $i++;
             ?>
             <div class="col-lg-4 col-md-6">
                 <div class="achievement-item" style="animation-delay: <?php echo ($index % 5 + 1) * 0.1; ?>s">

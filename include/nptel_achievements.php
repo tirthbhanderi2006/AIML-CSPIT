@@ -44,6 +44,99 @@ $facultyAchievements = [
         'badge' => 'Award',
         'icon' => 'trophy'
     ],
+      [
+        'name' => 'Niyati Patel',
+        'course' => 'Professor, AI & ML Department',
+        'description' => 'Elite category in the NPTEL course Cloud Computing.',
+        'image' => 'img/nptel/nptel_faculty_achievement6.jpg',
+        'badge' => 'Award',
+        'icon' => 'trophy'
+    ],
+     [
+        'name' => 'Hari, Puja and Smit',
+        'course' => 'B.Tech AI-ML, 2023',
+        'description' => 'Toppers position in JUL-OCT-2024 NPTEL Course "DSA using JAVA"',
+        'image' => 'img/students/student4.jpg',
+        'badge' => 'Topper',
+        'icon' => 'rocket',
+        'category' => 'topper'
+    ],
+    [
+        'name' => 'Hari Patel and Devang Dhandhukiya',
+        'course' => 'B.Tech AI-ML, 2023',
+        'description' => 'Toppers position(Top 1%) in JAN-APR-2025 NPTEL Course "Database Management System"',
+        'image' => 'img/students/student12.jpg',
+        'badge' => 'Topper',
+        'icon' => 'rocket',
+        'category' => 'topper'
+    ],
+    [
+        'name' => 'Het Patel and Arya Shah',
+        'course' => 'B.Tech AI-ML, 2023',
+        'description' => 'Toppers position(Top 2%) in JAN-APR-2025 NPTEL Course "Database Management System"',
+        'image' => 'img/students/student11.jpg',
+        'badge' => 'Topper',
+        'icon' => 'rocket',
+        'category' => 'topper'
+    ],
+    [
+        'name' => 'Kashak and Yash',
+        'course' => 'B.Tech AI-ML, 2023',
+        'description' => 'Toppers position(Top 5%) in JAN-APR-2025 NPTEL Course "Database Management System"',
+        'image' => 'img/students/student5.jpg',
+        'badge' => 'Topper',
+        'icon' => 'rocket',
+        'category' => 'topper'
+    ],
+
+    [
+        'name' => 'Tanmay and Aaryan',
+        'course' => 'B.Tech AI-ML, 2025',
+        'description' => 'Elite category in the NPTEL course Problem solving through Programming in C.',
+        'image' => 'img/students/student20.jpg',
+        'badge' => 'Topper',
+        'icon' => 'rocket',
+        'category' => 'topper'
+    ],
+    [
+        'name' => 'Nyasia Patel',
+        'course' => 'B.Tech AI-ML, 2024',
+        'description' => 'Silver category in the NPTEL course Demystifying Networking.',
+        'image' => 'img/students/student21.jpg',
+        'badge' => 'Topper',
+        'icon' => 'rocket',
+        'category' => 'topper'
+    ],
+
+    [
+        'name' => 'Kunjalba and Devarshi',
+        'course' => 'B.Tech AI-ML, 2023',
+        'description' => 'Elite category in the NPTEL course Introduction to LLMs.',
+        'image' => 'img/students/student22.jpg',
+        'badge' => 'Topper',
+        'icon' => 'rocket',
+        'category' => 'topper'
+    ],
+
+     [
+        'name' => 'Priyanshu and Harsh',
+        'course' => 'B.Tech AI-ML, 2024',
+        'description' => 'Elite category in the NPTEL course Data Structures and Algorithms using Java.',
+        'image' => 'img/students/student23.jpg',
+        'badge' => 'Topper',
+        'icon' => 'rocket',
+        'category' => 'topper'
+    ],
+
+     [
+        'name' => 'Bansari, Yash and Nency',
+        'course' => 'B.Tech AI-ML, 2024',
+        'description' => 'Elite category in the NPTEL course Introduction to Machine Learing.',
+        'image' => 'img/students/student24.jpg',
+        'badge' => 'Topper',
+        'icon' => 'rocket',
+        'category' => 'topper'
+    ],
 ];
 ?>
 
@@ -213,7 +306,11 @@ $facultyAchievements = [
         </div>
 
         <div class="row">
-            <?php foreach ($facultyAchievements as $index => $achievement): 
+            <?php 
+            $i=0;
+            foreach ($facultyAchievements as $index => $achievement): 
+                if($i==6)break;
+                $i++;
                 // Set fallback image based on index
                 $fallbackImage = 'img/portfolio/' . (($index % 5) + 1) . '.JPG';
                 if ($index >= 5) $fallbackImage = 'img/portfolio/4.jpg';
@@ -237,6 +334,15 @@ $facultyAchievements = [
                 </div>
             </div>
             <?php endforeach; ?>
+        </div>
+
+        <!-- View More Button -->
+        <div class="row">
+            <div class="col-12 text-center" style="margin-top: 30px;">
+                <a href="?v=nptel_achievements_all" class="btn" style="background: linear-gradient(45deg, #0c2e8a 0%, #29cca3 100%); color: #fff; padding: 12px 30px; border-radius: 25px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">
+                    View All Achievements
+                </a>
+            </div>
         </div>
     </div>
 </section>
