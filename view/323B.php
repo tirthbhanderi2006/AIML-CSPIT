@@ -14,7 +14,7 @@
         </tr>
         <tr>
             <td rowspan="4">323-B</td>
-            <td rowspan="4">AI & ML Lab - 04</td>
+            <td rowspan="4">AIML Lab - 04</td>
             <td rowspan="3">2024</td>
             <td>HP ProOne 440 23.8 inch G9 All-in-One Desktop PC,13th Gen Intel(R) Core(TM) i7-13700, 2100Mhz, 16 Core(s), 24 Logical Processor(s),16 GB DDR-5, 1 TB NVME SSD, HP OPTICAL MOUSE &amp; KEYBOARD</td>
             <td>40</td>

@@ -1,10 +1,48 @@
+<?php
+$clubs = [
+    [
+        'id' => 'innovators-club',
+        'title' => 'Innovators Club',
+        'category' => 'Technical Innovation Club',
+        'description' => 'Fostering creativity and innovation among students through hands-on projects, workshops, and collaborative problem-solving experiences in emerging technologies.',
+        'faculty_name' => 'Niyati Patel',
+        'faculty_email' => 'niyatipatel.aiml@charusat.ac.in',
+        'image' => 'img/clubs/IMG_0817.JPG',
+        'alt' => 'Innovators Club',
+        'fallback_image' => 'img/portfolio/1.JPG'
+    ],
+    [
+        'id' => 'ai-for-all',
+        'title' => 'AI For All Club',
+        'category' => 'AI Awareness & Learning',
+        'description' => 'Democratizing artificial intelligence education for all students, promoting AI literacy and ethical AI practices through interactive sessions and real-world applications.',
+        'faculty_name' => 'Gaurav Kumar Gautam',
+        'faculty_email' => 'gauravkumar.aiml@charusat.ac.in',
+        'image' => 'img/clubs/LOGO AI FOR ALL.jpg',
+        'alt' => 'AI For All Club',
+        'fallback_image' => 'img/portfolio/2.JPG'
+    ],
+    [
+        'id' => 'math-for-ai',
+        'title' => 'Math For AI Club',
+        'category' => 'Mathematical Foundation',
+        'description' => 'Building strong mathematical foundations for artificial intelligence, exploring the critical role of mathematics in machine learning algorithms and AI model development.',
+        'faculty_name' => 'Bhargav Shobhana',
+        'faculty_email' => 'bhargavshobhana.cv@charusat.ac.in',
+        'image' => 'img/clubs/Math for AI.JPG',
+        'alt' => 'Math For AI Club',
+        'fallback_image' => 'img/portfolio/3.JPG'
+    ]
+];
+?>
+
 <style>
-    #student-achievements {
+    .clubs-section {
         padding: 60px 0 30px 0;
         background: #f8f9fa;
     }
 
-    #student-achievements .achievement-item {
+    .club-card {
         background: #fff;
         border-radius: 8px;
         box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
@@ -14,29 +52,29 @@
         position: relative;
     }
 
-    #student-achievements .achievement-item:hover {
+    .club-card:hover {
         transform: translateY(-5px);
         box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.15);
     }
 
-    #student-achievements .achievement-image {
+    .club-image-container {
         position: relative;
         overflow: hidden;
         height: 250px;
     }
 
-    #student-achievements .achievement-image img {
+    .club-image {
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        object-fit: contain;
         transition: all 0.3s ease-in-out;
     }
 
-    #student-achievements .achievement-item:hover .achievement-image img {
+    .club-card:hover .club-image {
         transform: scale(1.05);
     }
 
-    #student-achievements .achievement-overlay {
+    .club-overlay {
         position: absolute;
         top: 0;
         left: 0;
@@ -50,11 +88,11 @@
         justify-content: center;
     }
 
-    #student-achievements .achievement-item:hover .achievement-overlay {
+    .club-card:hover .club-overlay {
         opacity: 1;
     }
 
-    #student-achievements .achievement-badge {
+    .club-badge {
         position: absolute;
         top: 15px;
         right: 15px;
@@ -68,12 +106,12 @@
         letter-spacing: 0.5px;
     }
 
-    #student-achievements .achievement-content {
+    .club-details {
         padding: 25px;
         text-align: center;
     }
 
-    #student-achievements .achievement-content h4 {
+    .club-title {
         font-size: 20px;
         font-weight: 700;
         color: #0c2e8a;
@@ -81,7 +119,7 @@
         font-family: "Montserrat", sans-serif;
     }
 
-    #student-achievements .achievement-content .student-course {
+    .club-category {
         color: #29cca3;
         font-size: 14px;
         font-weight: 600;
@@ -90,55 +128,76 @@
         letter-spacing: 0.5px;
     }
 
-    #student-achievements .achievement-content p {
+    .club-description {
         color: #666;
         font-size: 14px;
         line-height: 1.6;
-        margin-bottom: 0;
+        margin-bottom: 15px;
+        min-height: 72px;
     }
 
-    #student-achievements .achievement-icon {
+    .faculty-info {
+        border-top: 1px solid #eee;
+        padding-top: 15px;
+        margin-top: 15px;
+    }
+
+    .faculty-name, .faculty-email {
+        font-size: 13px;
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+    }
+
+    .faculty-name i, .faculty-email i {
+        margin-right: 8px;
+        color: #29cca3;
+        width: 20px;
+        text-align: center;
+    }
+
+    .faculty-email a {
+        color: #0c2e8a;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .faculty-email a:hover {
+        color: #29cca3;
+        text-decoration: underline;
+    }
+
+    .club-icon {
         font-size: 48px;
         color: #fff;
     }
 
     /* Responsive design */
     @media (max-width: 768px) {
-        #student-achievements .achievement-image {
+        .club-image-container {
             height: 200px;
         }
 
-        #student-achievements .achievement-content {
+        .club-details {
             padding: 20px 15px;
         }
 
-        #student-achievements .achievement-content h4 {
+        .club-title {
             font-size: 18px;
         }
     }
 
     /* Animation for section reveal */
-    .achievement-item {
+    .club-card {
         opacity: 0;
         transform: translateY(30px);
         animation: fadeInUp 0.6s ease-out forwards;
     }
 
-    .achievement-item:nth-child(1) {
-        animation-delay: 0.1s;
-    }
-
-    .achievement-item:nth-child(2) {
-        animation-delay: 0.2s;
-    }
-
-    .achievement-item:nth-child(3) {
-        animation-delay: 0.3s;
-    }
-
-    .achievement-item:nth-child(4) {
-        animation-delay: 0.4s;
-    }
+    .club-card:nth-child(1) { animation-delay: 0.1s; }
+    .club-card:nth-child(2) { animation-delay: 0.2s; }
+    .club-card:nth-child(3) { animation-delay: 0.3s; }
+    .club-card:nth-child(4) { animation-delay: 0.4s; }
 
     @keyframes fadeInUp {
         to {
@@ -148,7 +207,7 @@
     }
 </style>
 
-<section id="student-achievements" class="wow fadeInUp">
+<section id="student-clubs" class="clubs-section wow fadeInUp">
     <div class="container">
         <div class="section-header">
             <h2 style="padding-top: 20px">Student Clubs</h2>
@@ -156,72 +215,51 @@
         </div>
 
         <div class="row">
-            <!-- Club 1 -->
-            <div class="col-lg-4 col-md-6">
-                <div class="achievement-item">
-                    <div class="achievement-image">
-                        <img src="img/clubs/IMG_0817.JPG" alt="Student Achievement" onerror="this.src='img/portfolio/1.JPG'">
-                        <div class="achievement-overlay">
-                            <i class="fa fa-trophy achievement-icon"></i>
+            <?php foreach ($clubs as $index => $club): ?>
+                <div class="col-lg-4 col-md-6">
+                    <div id="<?php echo $club['id']; ?>" class="club-card">
+                        <div class="club-image-container">
+                            <img src="<?php echo $club['image']; ?>" 
+                                 alt="<?php echo htmlspecialchars($club['alt']); ?>" 
+                                 class="club-image" 
+                                 onerror="this.src='<?php echo $club['fallback_image']; ?>'">
+                            <div class="club-overlay">
+                                <i class="fa fa-trophy club-icon"></i>
+                            </div>
+                            <!-- Uncomment to add a badge if needed -->
+                            <!-- <div class="club-badge">Active</div> -->
                         </div>
-                        <!-- <div class="achievement-badge">Winner</div> -->
-                    </div>
-                    <div class="achievement-content">
-                        <h4>Innovators Club</h4>
-                        <div class="student-course">Technical Innovation Club</div>
-                        <p>Fostering creativity and innovation among students through hands-on projects, workshops, and collaborative problem-solving experiences in emerging technologies.</p>
+                        <div class="club-details">
+                            <h4 class="club-title"><?php echo htmlspecialchars($club['title']); ?></h4>
+                            <div class="club-category"><?php echo htmlspecialchars($club['category']); ?></div>
+                            <p class="club-description"><?php echo htmlspecialchars($club['description']); ?></p>
+                            <div class="faculty-info">
+                                <div class="faculty-name">
+                                    <i class="fa fa-user"></i>
+                                    <span>Faculty In-charge: <?php echo htmlspecialchars($club['faculty_name']); ?></span>
+                                </div>
+                                <div class="faculty-email">
+                                    <i class="fa fa-envelope"></i>
+                                    <a href="mailto:<?php echo htmlspecialchars($club['faculty_email']); ?>">
+                                        <?php echo htmlspecialchars($club['faculty_email']); ?>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <!-- Club 2 -->
-            <div class="col-lg-4 col-md-6">
-                <div class="achievement-item">
-                    <div class="achievement-image">
-                        <img src="img/clubs/LOGO AI FOR ALL.jpg" alt="Student Achievement" onerror="this.src='img/portfolio/2.JPG'">
-                        <div class="achievement-overlay">
-                            <i class="fa fa-trophy achievement-icon"></i>
-                        </div>
-                        <!-- <div class="achievement-badge">Winnner</div> -->
-                    </div>
-                    <div class="achievement-content">
-                        <h4>AI For All Club</h4>
-                        <div class="student-course">AI Awareness & Learning</div>
-                        <p>Democratizing artificial intelligence education for all students, promoting AI literacy and ethical AI practices through interactive sessions and real-world applications.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Club 3 -->
-            <div class="col-lg-4 col-md-6">
-                <div class="achievement-item">
-                    <div class="achievement-image">
-                        <img src="img/clubs/Math for AI.JPG" alt="Student Achievement" onerror="this.src='img/portfolio/3.JPG'">
-                        <div class="achievement-overlay">
-                            <i class="fa fa-trophy achievement-icon"></i>
-                        </div>
-                        <!-- <div class="achievement-badge">Winner</div> -->
-                    </div>
-                    <div class="achievement-content">
-                        <h4>Math For AI Club</h4>
-                        <div class="student-course">Mathematical Foundation</div>
-                        <p>Building strong mathematical foundations for artificial intelligence, exploring the critical role of mathematics in machine learning algorithms and AI model development.</p>
-                    </div>
-                </div>
-            </div>
-
-             
+            <?php endforeach; ?>
         </div>
 
-        
-
-        <!-- View More Button
+        <!-- View More Button (Uncomment if needed) -->
+        <!--
         <div class="row">
             <div class="col-12 text-center" style="margin-top: 30px;">
                 <a href="?v=student_achievements_all" class="btn" style="background: linear-gradient(45deg, #0c2e8a 0%, #29cca3 100%); color: #fff; padding: 12px 30px; border-radius: 25px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">
-                    View All Achievements
+                    View All Clubs
                 </a>
             </div>
-        </div> -->
+        </div>
+        -->
     </div>
 </section>

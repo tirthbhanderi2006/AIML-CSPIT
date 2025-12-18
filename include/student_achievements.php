@@ -18,7 +18,7 @@ $achievements = [
         'icon' => 'trophy'
     ],
     [
-        'name' => 'Letscode',
+        'name' => 'Kishan Patel',
         'course' => 'B.Tech AI-ML, 2023',
         'description' => 'Winner CVM University Hackathon 3.0 2024, developed an innovative solution for Life Science and Agriculture.',
         'image' => 'img/students/student3.jpg',
@@ -158,7 +158,8 @@ $achievements = [
     width: 100%;
     height: auto;
     max-height: 100%;
-    object-fit: cover;   /* or 'contain' if you prefer full visibility */
+    /* object-fit: contain;    */
+    object-fit: cover;   
     object-position: center;
 }
 

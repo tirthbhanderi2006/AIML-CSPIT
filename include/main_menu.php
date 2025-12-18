@@ -61,11 +61,11 @@
                   </li>
                   <li>
                      <!-- <a href="https://drive.google.com/file/d/1UO1ZbYqAX5ongBuoIh-hh8BwQK8z3m_l/view?usp=sharing" target="_blank">Booklet 24-25</a> -->
-                     <a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:9d330a5e-d43b-45b8-9be3-c4461ad8ea0c" target="_blank">Booklet 24-25</a>
+                     <a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:9d330a5e-d43b-45b8-9be3-c4461ad8ea0c" target="_blank">Syllabus Booklet 25-26</a>
                   </li>
-                  <li>
+                  <!-- <li>
                      <a href="https://drive.google.com/drive/folders/1CsUApZYDwfpl44itkin-ubXCAD0-FF5i?usp=drive_link" target="_blank">Syllabus</a>
-                  </li>
+                  </li> -->
                   <li>
                      <a href="https://charusat.edu.in:912/eGovernance/" target="_blank">Egovernance</a>
                   </li>

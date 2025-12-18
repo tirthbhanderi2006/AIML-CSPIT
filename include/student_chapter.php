@@ -94,7 +94,7 @@
           <h4 style="font-weight: bold; font-size: 18px; margin: 0 auto 15px auto; text-align: center; color: #333;">Equal Opportunity Cell</h4>
           <img src="img/cell/EOC.png" alt="Equal Opportunity Cell" height="90px" style="margin-bottom: 15px;">
           <p style="margin: 0; font-size: 14px; line-height: 1.6;">
-            <b>Prof. Gaurav Gautham Kumar</b><br>
+            <b>Prof. Gaurav Kumar Gautam</b><br>
             <a href="mailto:gauravkumar@charusat.ac.in" style="color: #007bff; text-decoration: none;">gauravkumar.aiml@charusat.ac.in</a>
           </p>
         </div>
@@ -106,7 +106,7 @@
           <h4 style="font-weight: bold; font-size: 18px; margin: 0 auto 15px auto; text-align: center; color: #333;">National Service Scheme</h4>
           <img src="img/cell/NSS.png" alt="National Service Scheme" height="90px" style="margin-bottom: 15px;">
           <p style="margin: 0; font-size: 14px; line-height: 1.6;">
-            <b>Prof. Gaurav Gautham Kumar</b><br>
+            <b>Prof. Gaurav Kumar Gautam </b><br>
             <a href="mailto:gauravkumar@charusat.ac.in" style="color: #007bff; text-decoration: none;">gauravkumar.aiml@charusat.ac.in</a>
           </p>
         </div>

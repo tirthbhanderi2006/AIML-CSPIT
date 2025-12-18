@@ -29,6 +29,7 @@
     <div class="container">
       <div class="text-center center-block">
             <p class="txt-railway text-center">- Follow us @ Social Media -</p>
+              <a href="https://www.linkedin.com/in/aimlcspit/" target="_blank"><i class="fa fa-linkedin fa-3x social"></i></a>
               <a href="https://www.facebook.com/profile.php?id=61555053276330" target="_blank"><i class="fa fa-facebook-square fa-3x social"></i></a>
               <a href="https://www.instagram.com/aiml_cspit/" target="_blank"><i class="fa fa-instagram fa-3x social"></i></a>
              <!--  <a href="" target="_blank"><i class="fa fa-youtube-square fa-3x social"></i></a>

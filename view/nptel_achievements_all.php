@@ -4,7 +4,7 @@ $achievements = [
     // Faculty Achievements
     [
         'name' => 'Jalpesh Vasa',
-        'course' => 'Professor, AI & ML Department',
+        'course' => 'Professor, AIML Department',
         'description' => 'Elite + Silver in the NPTEL course Privacy and Security in Online Social Media.',
         'image' => 'img/nptel/nptel_faculty_achievement1.jpg',
         'badge' => 'Award',
@@ -13,7 +13,7 @@ $achievements = [
     ],
     [
         'name' => 'Deep Mendha',
-        'course' => 'Professor, AI & ML Department',
+        'course' => 'Professor, AIML Department',
         'description' => 'Elite category in the NPTEL course Programming with Generative AI.',
         'image' => 'img/nptel/nptel_faculty_achievement2.jpg',
         'badge' => 'Award',
@@ -22,7 +22,7 @@ $achievements = [
     ],
     [
         'name' => 'Nishant Koshti',
-        'course' => 'Professor, AI & ML Department',
+        'course' => 'Professor, AIML Department',
         'description' => 'Elite category in the NPTEL course Cloud Computing.',
         'image' => 'img/nptel/nptel_faculty_achievement3.jpg',
         'badge' => 'Award',
@@ -31,7 +31,7 @@ $achievements = [
     ],
     [
         'name' => 'Gaurang Patel',
-        'course' => 'Professor, AI & ML Department',
+        'course' => 'Professor, AIML Department',
         'description' => 'Elite category in the NPTEL course Processing of Polymers and Polymer Composites.',
         'image' => 'img/nptel/nptel_faculty_achievement4.jpg',
         'badge' => 'Award',
@@ -40,7 +40,7 @@ $achievements = [
     ],
     [
         'name' => 'Maulik V. Shah',
-        'course' => 'Professor, AI & ML Department',
+        'course' => 'Professor, AIML Department',
         'description' => 'Elite category in the NPTEL course Basics of Finite Element Analysis – 2.',
         'image' => 'img/nptel/nptel_faculty_achievement5.jpg',
         'badge' => 'Award',
@@ -49,7 +49,7 @@ $achievements = [
     ],
     [
         'name' => 'Niyati Patel',
-        'course' => 'Professor, AI & ML Department',
+        'course' => 'Professor, AIML Department',
         'description' => 'Elite category in the NPTEL course Cloud Computing.',
         'image' => 'img/nptel/nptel_faculty_achievement6.jpg',
         'badge' => 'Award',

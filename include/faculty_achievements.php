@@ -4,7 +4,7 @@ $facultyAchievements = [
 
        [
         'name' => 'Dr. Nirav Bhatt',
-        'course' => 'HOD, AI & ML Department',
+        'course' => 'HOD, AIML Department',
         'description' => 'Awarded for his remarkable paper  "Future of LLMs and Digital Twins in Precision Healthcare" published in the Journal of Propulsion Technology! ',
         'image' => 'img/faculties/faculty_achievement1.jpg',
         'badge' => 'Award',
@@ -12,7 +12,7 @@ $facultyAchievements = [
     ],
     [
         'name' => 'Bhargav Shobhana',
-        'course' => 'Professor, AI & ML Department',
+        'course' => 'Professor, AIML Department',
         'description' => 'Awarded for his remarkable paper "Eddy Current Dampers for Seismic Vibration Control" published in the Journal of Vibration Engineering & Technologies! ',
         'image' => 'img/faculties/faculty_achievement2.jpg',
         'badge' => 'Award',
